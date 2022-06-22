@@ -9,7 +9,7 @@ from typing import List
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-from Recommender import get_sku
+from backend.ml_models.Recommender import get_sku
 
 app = FastAPI()
 
