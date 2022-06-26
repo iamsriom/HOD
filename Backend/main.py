@@ -10,8 +10,8 @@ from typing import List
 
 from fastapi import FastAPI
 
-from backend.ml_models.Recommender import get_sku
-from backend.ml_models.trained_model import get_recommendations
+from Backend.ml_models.Recommender import get_sku
+from Backend.ml_models.trained_model import get_recommendations
 
 app = FastAPI()
 
